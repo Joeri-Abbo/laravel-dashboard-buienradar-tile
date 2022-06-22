@@ -13,6 +13,7 @@ class BuienradarServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../resources/views' => resource_path('views/vendor/' . self::PACKAGE_NAME),
+            __DIR__ . '/../resources/assets/build' => resource_path('views/vendor/' . self::PACKAGE_NAME . '/assets'),
         ], 'dashboard-buienradar-views');
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', self::PACKAGE_NAME);
