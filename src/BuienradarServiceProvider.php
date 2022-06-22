@@ -7,13 +7,15 @@ use Livewire\Livewire;
 
 class BuienradarServiceProvider extends ServiceProvider
 {
+    const PACKAGE_NAME = 'dashboard-buienradar-tile';
+
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/dashboard-buienradar'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/' . self::PACKAGE_NAME),
         ], 'dashboard-buienradar-views');
 
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'dashboard-buienradar');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', self::PACKAGE_NAME);
 
         Livewire::component('buienradar', BuienradarComponent::class);
     }
