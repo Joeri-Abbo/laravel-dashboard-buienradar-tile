@@ -1,22 +1,25 @@
 {
-    "name": ":vendor/:package_name",
-    "description": ":package_description",
+    "name": "joeri-abbo/laravel-dashboard-buienradar-tile",
+    "description": "Render buienradar tile on your dashboard",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "joeri-abbo",
+        "laravel-dashboard",
+        "laravel",
+        "spatie",
+        "laravel"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/Joeri-Abbo/laravel-dashboard-buienradar-tile",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://:vendor.be",
+            "name": "Joeri Abbo",
+            "email": "joeriabbo@hotmail.com",
+            "homepage": "https://www.linkedin.com/in/joeri-abbo-43a457144/",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0|^7.4",
+        "php": "^8.0",
         "spatie/laravel-dashboard": "^2.0"
     },
     "require-dev": {
@@ -24,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\MyTile\\": "src"
+            "JoeriAbbo\\Buienradar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\MyTile\\Tests\\": "tests"
+            "JoeriAbbo\\Buienradar\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\MyTile\\MyTileServiceProvider"
+                "BuienradarServiceProvider"
             ]
         }
     },

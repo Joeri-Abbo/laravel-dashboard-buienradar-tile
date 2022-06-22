@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\MyTile;
+namespace JoeriAbbo\Buienradar;
 
 use Livewire\Component;
 
-class MyTileComponent extends Component
+class BuienradarComponent extends Component
 {
     public $position;
 
@@ -13,8 +13,8 @@ class MyTileComponent extends Component
     {
         $this->position = $position;
     }
-    
-    
+
+
     public function render()
     {
         return view('dashboard-skeleton-tile::tile', [
