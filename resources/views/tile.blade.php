@@ -1,4 +1,6 @@
 <x-dashboard-tile :position="$position">
+    https://www.buienradar.nl/overbuienradar/gratis-weerdata
+
     <link rel="stylesheet"
           href="{{asset(mix('/css/app.css', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME."/assets"))}}">
     <script
