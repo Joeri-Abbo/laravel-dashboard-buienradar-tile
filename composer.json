@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BuienradarServiceProvider"
+                "JoeriAbbo\\Buienradar\\BuienradarServiceProvider"
             ]
         }
     },
