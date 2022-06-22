@@ -17,7 +17,7 @@ class BuienradarComponent extends Component
 
     public function render()
     {
-        return view('buienradar::tile', [
+        return view('dashboard-buienradar::tile', [
             'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
 
         ]);
