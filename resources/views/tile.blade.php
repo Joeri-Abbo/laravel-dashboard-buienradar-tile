@@ -14,18 +14,16 @@
                     <div class="h-full w-full js-buienradar-image">
                     </div>
                 </a>
-            @else
-                implement !
+            @elseif($type === \JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_OVERVIEW)
+                <iframe SRC="https://gadgets.buienradar.nl/gadget/radarfivedays">
+                </iframe>
+            @elseif($type === \JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_MAP)
+                <iframe
+                    src="https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.84437&lng=4.16303&overname=2&zoom=8&naam=3223PA&size=3&voor=0"
+                    width=550 height=512>
+                </iframe>
             @endif
 
-            {{--            <IFRAME SRC="https://gadgets.buienradar.nl/gadget/radarfivedays" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0--}}
-            {{--                    FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=406>--}}
-
-            {{--            </IFRAME>--}}
-
-            {{--            <iframe--}}
-            {{--                src="https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.84437&lng=4.16303&overname=2&zoom=8&naam=3223PA&size=2&voor=0"--}}
-            {{--                scrolling=no width=100% height=256 frameborder=no></iframe>--}}
         </div>
     </div>
 </x-dashboard-tile>
