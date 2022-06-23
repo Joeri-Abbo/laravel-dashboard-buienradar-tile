@@ -11,7 +11,10 @@ class BuienradarComponent extends Component
      * @var
      */
     public $position;
-
+    /**
+     * @var
+     */
+    public $type;
 
     /**
      * @param string $position

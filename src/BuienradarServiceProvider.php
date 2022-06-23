@@ -8,6 +8,10 @@ use Livewire\Livewire;
 class BuienradarServiceProvider extends ServiceProvider
 {
     const PACKAGE_NAME = 'dashboard-buienradar-tile';
+    const TYPE_IMAGE = 'image';
+    const TYPES = [
+        self::TYPE_IMAGE
+    ];
 
     public function boot()
     {

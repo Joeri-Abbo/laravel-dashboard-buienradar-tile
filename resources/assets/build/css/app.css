@@ -370,35 +370,22 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-}.-mt-1 {
-  margin-top: -0.25rem;
 }.flex {
   display: flex;
 }.grid {
   display: grid;
 }.h-full {
   height: 100%;
-}.h-10 {
-  height: 2.5rem;
-}.w-10 {
-  width: 2.5rem;
+}.w-full {
+  width: 100%;
 }.items-center {
   align-items: center;
 }.justify-center {
   justify-content: center;
 }.gap-2 {
   gap: 0.5rem;
-}.divide-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
 }.self-center {
   align-self: center;
-}.rounded-full {
-  border-radius: 9999px;
-}.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}.leading-none {
-  line-height: 1;
+}.p-0 {
+  padding: 0px;
 }
