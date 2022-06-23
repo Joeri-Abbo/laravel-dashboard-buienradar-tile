@@ -5,7 +5,9 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/joeri-abbo/laravel-dashboard-buienradar-tile.svg?style=flat-square)](https://packagist.org/packages/joeri-abbo/laravel-dashboard-buienradar-tile)
 
 This tile adds support to show buienradar widgets on your dashboard
-
+<p align="center">
+    <img width="512" src="https://github.com/solitweb/laravel-dashboard-date-time-tile/raw/master/screenshot.png">
+</p>
 This tile can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 
 ## Installation
