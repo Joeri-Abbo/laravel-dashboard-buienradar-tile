@@ -19,7 +19,6 @@
         }
     ],
     "require": {
-        "php": "^8.0",
         "spatie/laravel-dashboard": "^2.0"
     },
     "require-dev": {
