@@ -6,7 +6,7 @@
 
 This tile adds support to show buienradar widgets on your dashboard
 <p align="center">
-    <img width="512" src="https://github.com/solitweb/laravel-dashboard-date-time-tile/raw/master/screenshot.png">
+    <img width="512" src="https://github.com/Joeri-Abbo/laravel-dashboard-buienradar-tile/raw/master/screenshot.png">
 </p>
 This tile can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 
