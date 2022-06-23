@@ -15,6 +15,18 @@ class BuienradarComponent extends Component
      * @var
      */
     public $type;
+    /**
+     * @var
+     */
+    public $lat;
+    /**
+     * @var
+     */
+    public $lng;
+    /**
+     * @var
+     */
+    public $zoom = 8;
 
     /**
      * @param string $position

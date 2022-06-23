@@ -1,27 +1,24 @@
 window.addEventListener('load', (event) => {
-    loadMaps
+    loadMaps()
 });
 
 let timeOutFunctionId;
-
 window.addEventListener("resize", function () {
-
-    // clearTimeOut() resets the setTimeOut() timer
-    // due to this the function in setTimeout() is
-    // fired after we are done resizing
     clearTimeout(timeOutFunctionId);
-
-    // setTimeout returns the numeric ID which is used by
-    // clearTimeOut to reset the timer
     timeOutFunctionId = setTimeout(loadMaps, 500);
-
 });
 
+/**
+ * Load map logic
+ */
 function loadMaps() {
     getMap()
     getImage()
 }
 
+/**
+ * Get the image of the map
+ */
 function getImage() {
     document.querySelectorAll('.js-buienradar-image-wrapper').forEach(node => {
         const imageWrapper = node.querySelector(".js-buienradar-image");
@@ -34,12 +31,13 @@ function getImage() {
     })
 }
 
+/**
+ * Get the map and set its size equal to parent div
+ */
 function getMap() {
     document.querySelectorAll('.js-buienradar-map-wrapper').forEach(node => {
         const frame = node.querySelector("iframe");
-        const height = node.offsetHeight;
-        const width = node.offsetWidth;
-        frame.height = height;
-        frame.width = width;
+        frame.height = node.offsetHeight;
+        frame.width = node.offsetWidth;
     })
 }

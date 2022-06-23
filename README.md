@@ -1,23 +1,12 @@
-# A short description of the tile
+# Display buienradar on your dashboard.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/:vendor/:package_name/run-tests?label=tests)](https://github.com/:vendor/:package_name/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/joeri-abbo/laravel-dashboard-buienradar-tile.svg?style=flat-square)](https://packagist.org/packages/joeri-abbo/laravel-dashboard-buienradar-tile)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/joeri-abbo/laravel-dashboard-buienradar-tile/run-tests?label=tests)](https://github.com/joeri-abbo/laravel-dashboard-buienradar-tile/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/joeri-abbo/laravel-dashboard-buienradar-tile.svg?style=flat-square)](https://packagist.org/packages/joeri-abbo/laravel-dashboard-buienradar-tile)
 
-A friendly explanation of what your tile does.
+This tile adds support to show buienradar widgets on your dashboard
 
 This tile can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-dashboard-skeleton-tile.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-dashboard-skeleton-tile)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can
-support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
-You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards
-on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
@@ -30,11 +19,20 @@ composer require joeri-abbo/laravel-dashboard-buienradar-tile
 ## Usage
 
 In your dashboard view you use the `livewire:buienradar` component.
+There are 3 variants of the widget.
+
+- The first one is global overview of the netherlands.
+- the second one is a overview oth the netherlands with a overview of the predicted weather.
+- And the third one supports a map with a focus point. Based on lng and lat it shows the map. Optinal parameter is zoom
+  for the zoom value. This int is default set to 8
 
 ```html
 
 <x-dashboard>
-    <livewire:buienradar position="e7:e16"/>
+    <livewire:buienradar position="a1" type="{{\JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_IMAGE}}"/>
+    <livewire:buienradar position="b1" type="{{\JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_OVERVIEW}}"/>
+    <livewire:buienradar position="c1" lat="51.84437" lng="4.16303"
+                         type="{{\JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_MAP}}"/>
 </x-dashboard>
 ```
 
