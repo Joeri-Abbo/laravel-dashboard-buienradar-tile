@@ -2,25 +2,48 @@
 
 namespace JoeriAbbo\Buienradar;
 
+use Illuminate\View\View;
 use Livewire\Component;
 
 class BuienradarComponent extends Component
 {
+    /**
+     * @var
+     */
     public $position;
+    /**
+     * @var
+     */
+    public $type;
+    /**
+     * @var
+     */
+    public $lat;
+    /**
+     * @var
+     */
+    public $lng;
+    /**
+     * @var
+     */
+    public $zoom = 8;
 
-
+    /**
+     * @param string $position
+     * @return void
+     */
     public function mount(string $position)
     {
         $this->position = $position;
     }
 
-
-    public function render()
+    /**
+     * @return View
+     */
+    public function render(): view
     {
-        return view('dashboard-skeleton-tile::tile', [
-            'myData' => MyStore::make()->getData(),
+        return view(BuienradarServiceProvider::PACKAGE_NAME . '::tile', [
             'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
-
         ]);
     }
 }

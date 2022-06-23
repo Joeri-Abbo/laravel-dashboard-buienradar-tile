@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MyTile\Tests;
+namespace JoeriAbbo\Buienradar\Tests;
 
 use PHPUnit\Framework\TestCase;
 
