@@ -2,9 +2,9 @@
     https://www.buienradar.nl/overbuienradar/gratis-weerdata
 
     <link rel="stylesheet"
-          href="{{asset(mix('/css/app.css', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME."/assets"))}}">
+          href="{{asset(mix('/css/app.css', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME))}}">
     <script
-        src="{{asset(mix('/js/app.js', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME."/assets"))}}"></script>
+        src="{{asset(mix('/js/app.js', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME))}}"></script>
 
     <div class="grid grid-rows-auto-1 gap-2 h-full">
         <div

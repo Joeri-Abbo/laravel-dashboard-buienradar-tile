@@ -12,7 +12,7 @@ class BuienradarServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../resources/assets/build' => resource_path('views/vendor/' . self::PACKAGE_NAME),
+            __DIR__ . '/../resources/assets/build' => public_path('vendor/' . self::PACKAGE_NAME),
         ], 'public');
 
         $this->publishes([
