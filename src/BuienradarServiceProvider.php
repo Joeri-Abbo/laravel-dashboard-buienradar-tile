@@ -9,8 +9,15 @@ class BuienradarServiceProvider extends ServiceProvider
 {
     const PACKAGE_NAME = 'dashboard-buienradar-tile';
     const TYPE_IMAGE = 'image';
+    const TYPE_OVERVIEW = 'overview';
+    const TYPE_MAP = 'map';
+    /**
+     * Types
+     */
     const TYPES = [
-        self::TYPE_IMAGE
+        self::TYPE_IMAGE,
+        self::TYPE_OVERVIEW,
+        self::TYPE_MAP
     ];
 
     public function boot()
