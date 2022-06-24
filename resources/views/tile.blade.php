@@ -3,7 +3,6 @@
           href="{{asset(mix('/css/app.css', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME))}}">
     <script
         src="{{asset(mix('/js/app.js', 'vendor/'. \JoeriAbbo\Buienradar\BuienradarServiceProvider::PACKAGE_NAME))}}"></script>
-
     <div
         class="grid grid-rows-auto-1 gap-2 h-full flex {{\JoeriAbbo\Buienradar\BuienRadarHelper::getWrapperTypeClass($type)}}"
         id="buienradar-{{rand(1,2000)}}">
@@ -12,6 +11,9 @@
             @if($type === \JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_IMAGE)
                 <a href="https://www.buienradar.nl" target="_blank"
                    class="h-full w-full js-buienradar-image">
+                    <script>
+                        getMap()
+                    </script>
                 </a>
             @elseif($type === \JoeriAbbo\Buienradar\BuienradarServiceProvider::TYPE_OVERVIEW)
                 <iframe SRC="https://gadgets.buienradar.nl/gadget/radarfivedays" WIDTH=256 HEIGHT=406>
@@ -26,6 +28,7 @@
                     Please add a lng and lat  parameter for your location
                 @endif
             @endif
+
         </div>
     </div>
 </x-dashboard-tile>
