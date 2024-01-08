@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^3.3.3
     version: 3.3.3(webpack@5.89.0)
   tailwindcss:
-    specifier: ^3.4.0
-    version: 3.4.0
+    specifier: ^3.4.1
+    version: 3.4.1
   webpack:
     specifier: ^5.89.0
     version: 5.89.0(webpack-cli@5.1.4)
@@ -4374,7 +4374,7 @@ packages:
       postcss: 8.4.33
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
-      resolve: 1.22.1
+      resolve: 1.22.2
     dev: true
 
   /postcss-import@16.0.0(postcss@8.4.33):
@@ -5080,15 +5080,6 @@ packages:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
 
-  /resolve@1.22.1:
-    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.12.1
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve@1.22.2:
     resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
     hasBin: true
@@ -5471,8 +5462,8 @@ packages:
       picocolors: 1.0.0
       stable: 0.1.8
 
-  /tailwindcss@3.4.0:
-    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
+  /tailwindcss@3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
