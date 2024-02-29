@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^8.4.35
     version: 8.4.35
   postcss-loader:
-    specifier: ^8.1.0
-    version: 8.1.0(postcss@8.4.35)(webpack@5.90.3)
+    specifier: ^8.1.1
+    version: 8.1.1(postcss@8.4.35)(webpack@5.90.3)
   postcss-preset-env:
     specifier: ^9.4.0
     version: 9.4.0(postcss@8.4.35)
@@ -119,7 +119,7 @@ packages:
       '@babel/compat-data': 7.18.5
       '@babel/core': 7.18.5
       '@babel/helper-validator-option': 7.16.7
-      browserslist: 4.22.1
+      browserslist: 4.23.0
       semver: 6.3.1
 
   /@babel/helper-create-class-features-plugin@7.18.0(@babel/core@7.18.5):
@@ -2268,7 +2268,6 @@ packages:
       electron-to-chromium: 1.4.675
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
-    dev: true
 
   /buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
@@ -2328,7 +2327,6 @@ packages:
 
   /caniuse-lite@1.0.30001588:
     resolution: {integrity: sha512-+hVY9jE44uKLkH0SrUTqxjxqNTOWHsbnQDIKjwkZ3lNTzUUVdBLBGXtj/q5Mp5u98r3droaZAewQuEDzjQdZlQ==}
-    dev: true
 
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -2519,7 +2517,7 @@ packages:
   /core-js-compat@3.23.2:
     resolution: {integrity: sha512-lrgZvxFwbQp9v7E8mX0rJ+JX7Bvh4eGULZXA1IAyjlsnWvCdw6TF8Tg6xtaSUSJMrSrMaLdpmk+V54LM1dvfOA==}
     dependencies:
-      browserslist: 4.22.1
+      browserslist: 4.23.0
       semver: 7.0.0
 
   /core-util-is@1.0.3:
@@ -2900,7 +2898,6 @@ packages:
 
   /electron-to-chromium@1.4.675:
     resolution: {integrity: sha512-+1u3F/XPNIdUwv8i1lDxHAxCvNNU0QIqgb1Ycn+Jnng8ITzWSvUqixRSM7NOazJuwhf65IV17f/VbKj8DmL26A==}
-    dev: true
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -3980,7 +3977,6 @@ packages:
 
   /node-releases@2.0.14:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
-    dev: true
 
   /normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -4515,8 +4511,8 @@ packages:
       semver: 7.5.4
       webpack: 5.90.3(webpack-cli@5.1.4)
 
-  /postcss-loader@8.1.0(postcss@8.4.35)(webpack@5.90.3):
-    resolution: {integrity: sha512-AbperNcX3rlob7Ay7A/HQcrofug1caABBkopoFeOQMspZBqcqj6giYn1Bwey/0uiOPAcR+NQD0I2HC7rXzk91w==}
+  /postcss-loader@8.1.1(postcss@8.4.35)(webpack@5.90.3):
+    resolution: {integrity: sha512-0IeqyAsG6tYiDRCYKQJLAmgQr47DX6N7sFSWvQxt6AcupX8DIdmykuk/o/tx0Lze3ErGHJEp5OSRxrelC6+NdQ==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
@@ -5737,7 +5733,6 @@ packages:
       browserslist: 4.23.0
       escalade: 3.1.1
       picocolors: 1.0.0
-    dev: true
 
   /uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
