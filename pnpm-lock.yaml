@@ -28,8 +28,8 @@ importers:
         specifier: ^8.1.1
         version: 8.1.1(postcss@8.4.45)(webpack@5.92.0(webpack-cli@5.1.4))
       postcss-preset-env:
-        specifier: ^10.0.3
-        version: 10.0.3(postcss@8.4.45)
+        specifier: ^10.0.6
+        version: 10.0.6(postcss@8.4.45)
       style-loader:
         specifier: ^3.3.4
         version: 3.3.4(webpack@5.92.0(webpack-cli@5.1.4))
@@ -733,8 +733,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  '@csstools/postcss-light-dark-function@2.0.2':
-    resolution: {integrity: sha512-QAWWDJtJ7ywzhaMe09QwhjhuwB0XN04fW1MFwoEJMcYyiQub4a57mVFV+ngQEekUhsqe/EtKVCzyOx4q3xshag==}
+  '@csstools/postcss-light-dark-function@2.0.4':
+    resolution: {integrity: sha512-yHUt5DZ61Irvp72notmAl3Zt4Me50EWToWNocazyIFTVYFwwo/EucmV3hWi9zJehu3rOSvMclL7DzvRDfbak/A==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -2567,8 +2567,8 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
 
-  postcss-custom-media@11.0.1:
-    resolution: {integrity: sha512-vfBliYVgEEJUFXCRPQ7jYt1wlD322u+/5GT0tZqMVYFInkpDHfjhU3nk2quTRW4uFc/umOOqLlxvrEOZRvloMw==}
+  postcss-custom-media@11.0.2:
+    resolution: {integrity: sha512-IDtxB1VgPayRLjNBMjuf827sn1j2m9EGnhIxpx2coVerbWJF+twt590+PKvdDc4K8QNFqFJh+W/SOiHpasVXsg==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -2879,8 +2879,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  postcss-preset-env@10.0.3:
-    resolution: {integrity: sha512-1nrZ4IeBXEEj53IMoRKE+k/Ub6nQb3gFjaxTeyUNG5zv3JQclFDY5GKKhAi3nsa1lnPMWgzQX+/1y6wUt2+I7Q==}
+  postcss-preset-env@10.0.6:
+    resolution: {integrity: sha512-qixfM2wbvKJhUjJELLB8lV2UCsyrMdSXqiXHiNKMgAbNturstc80j/8MsthJeOpxYEekrCrFzcaoOJm8JRSdBg==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -4463,7 +4463,7 @@ snapshots:
       postcss: 8.4.45
       postcss-selector-parser: 6.1.0
 
-  '@csstools/postcss-light-dark-function@2.0.2(postcss@8.4.45)':
+  '@csstools/postcss-light-dark-function@2.0.4(postcss@8.4.45)':
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
       '@csstools/css-tokenizer': 3.0.1
@@ -6477,7 +6477,7 @@ snapshots:
       postcss: 8.4.45
       postcss-value-parser: 4.2.0
 
-  postcss-custom-media@11.0.1(postcss@8.4.45):
+  postcss-custom-media@11.0.2(postcss@8.4.45):
     dependencies:
       '@csstools/cascade-layer-name-parser': 2.0.1(@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1))(@csstools/css-tokenizer@3.0.1)
       '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
@@ -6761,7 +6761,7 @@ snapshots:
       postcss: 8.4.45
       postcss-value-parser: 4.2.0
 
-  postcss-preset-env@10.0.3(postcss@8.4.45):
+  postcss-preset-env@10.0.6(postcss@8.4.45):
     dependencies:
       '@csstools/postcss-cascade-layers': 5.0.0(postcss@8.4.45)
       '@csstools/postcss-color-function': 4.0.2(postcss@8.4.45)
@@ -6775,7 +6775,7 @@ snapshots:
       '@csstools/postcss-ic-unit': 4.0.0(postcss@8.4.45)
       '@csstools/postcss-initial': 2.0.0(postcss@8.4.45)
       '@csstools/postcss-is-pseudo-class': 5.0.0(postcss@8.4.45)
-      '@csstools/postcss-light-dark-function': 2.0.2(postcss@8.4.45)
+      '@csstools/postcss-light-dark-function': 2.0.4(postcss@8.4.45)
       '@csstools/postcss-logical-float-and-clear': 3.0.0(postcss@8.4.45)
       '@csstools/postcss-logical-overflow': 2.0.0(postcss@8.4.45)
       '@csstools/postcss-logical-overscroll-behavior': 2.0.0(postcss@8.4.45)
@@ -6805,7 +6805,7 @@ snapshots:
       postcss-color-functional-notation: 7.0.2(postcss@8.4.45)
       postcss-color-hex-alpha: 10.0.0(postcss@8.4.45)
       postcss-color-rebeccapurple: 10.0.0(postcss@8.4.45)
-      postcss-custom-media: 11.0.1(postcss@8.4.45)
+      postcss-custom-media: 11.0.2(postcss@8.4.45)
       postcss-custom-properties: 14.0.1(postcss@8.4.45)
       postcss-custom-selectors: 8.0.1(postcss@8.4.45)
       postcss-dir-pseudo-class: 9.0.0(postcss@8.4.45)
