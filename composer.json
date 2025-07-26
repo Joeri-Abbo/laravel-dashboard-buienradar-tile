@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "spatie/laravel-dashboard": "^2.0"
+        "spatie/laravel-dashboard": "^3.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3",
