@@ -4,11 +4,12 @@ namespace JoeriAbbo\Buienradar\Tests;
 
 use JoeriAbbo\Buienradar\BuienRadarHelper;
 use JoeriAbbo\Buienradar\BuienradarServiceProvider;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 class TypeTest extends TestCase
 {
-    /** @test */
+    #[Test]
     public function isValidTypeTest()
     {
         foreach (BuienradarServiceProvider::TYPES as $type) {
