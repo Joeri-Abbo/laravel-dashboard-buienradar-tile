@@ -34,8 +34,8 @@ importers:
         specifier: ^3.3.4
         version: 3.3.4(webpack@5.102.1)
       tailwindcss:
-        specifier: ^4.1.16
-        version: 4.1.16
+        specifier: ^4.2.2
+        version: 4.2.2
       webpack:
         specifier: ^5.102.1
         version: 5.102.1(webpack-cli@6.0.1)
@@ -3418,8 +3418,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  tailwindcss@4.1.16:
-    resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
+  tailwindcss@4.2.2:
+    resolution: {integrity: sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==}
 
   tapable@2.3.0:
     resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
@@ -7561,7 +7561,7 @@ snapshots:
       picocolors: 1.1.1
       stable: 0.1.8
 
-  tailwindcss@4.1.16: {}
+  tailwindcss@4.2.2: {}
 
   tapable@2.3.0: {}
 
