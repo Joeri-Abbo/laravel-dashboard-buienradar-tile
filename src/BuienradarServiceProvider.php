@@ -7,14 +7,14 @@ use Livewire\Livewire;
 
 class BuienradarServiceProvider extends ServiceProvider
 {
-    const PACKAGE_NAME = 'dashboard-buienradar-tile';
-    const TYPE_IMAGE = 'image';
-    const TYPE_OVERVIEW = 'overview';
-    const TYPE_MAP = 'map';
+    public const PACKAGE_NAME = 'dashboard-buienradar-tile';
+    public const TYPE_IMAGE = 'image';
+    public const TYPE_OVERVIEW = 'overview';
+    public const TYPE_MAP = 'map';
     /**
      * Types
      */
-    const TYPES = [
+    public const TYPES = [
         self::TYPE_IMAGE,
         self::TYPE_OVERVIEW,
         self::TYPE_MAP
